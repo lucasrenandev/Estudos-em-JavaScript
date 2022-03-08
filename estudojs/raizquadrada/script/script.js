@@ -1,6 +1,6 @@
 function verificarRaiz() {
-    var n1 = window.document.getElementById('txtn1').value
-    var res = window.document.getElementById('res')
+    var n1 = document.getElementById('txtn1').value
+    var res = document.getElementById('res')
 
     var raiz = n1 * n1
 

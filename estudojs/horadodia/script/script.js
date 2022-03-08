@@ -1,5 +1,5 @@
-var msg = window.document.getElementById('msg')
-var img = window.document.getElementById('imagem')
+var msg = document.getElementById('msg')
+var img = document.getElementById('imagem')
 var date = new Date()
 //var hora = date.getHours()
 var hora = 22

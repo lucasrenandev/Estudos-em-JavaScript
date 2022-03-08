@@ -1,7 +1,7 @@
 function verificarMaior() {
-    var n1 = window.document.getElementById('txtn1').value
-    var n2 = window.document.getElementById('txtn2').value
-    var res = window.document.getElementById('res')
+    var n1 = document.getElementById('txtn1').value
+    var n2 = document.getElementById('txtn2').value
+    var res = document.getElementById('res')
 
     maior = Number(n1)
     menor = Number(n1)
