@@ -1,0 +1,27 @@
+
+body {
+    font: normal 18pt arial;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 150px;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.336);
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div#res {
+    padding: 10px;
+}

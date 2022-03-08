@@ -1,0 +1,31 @@
+body {
+    font: normal 15pt arial;
+    background-color: lightblue;
+
+}
+
+h1 {
+    text-align: center;
+}
+section {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.336);
+
+}
+
+img {
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+div#res {
+    padding: 10px;
+}
