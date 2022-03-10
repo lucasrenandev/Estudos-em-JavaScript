@@ -6,7 +6,7 @@ function calcularMedia() {
     var n1 = Number(tn1)
     var n2 = Number(tn2)
 
-    média = (n1 + n2) / 2  
+    média = (n1 + n2).toFixed(2) / 2  
     res.innerHTML=`A média do aluno é ${média}!`
     
 }
