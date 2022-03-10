@@ -5,5 +5,5 @@ function Calcular() {
     dobro = numero * 2
     metade = numero / 2
 
-    res.innerHTML = `O dobro de ${numero} é ${dobro} e a metade é ${metade}!`
+    res.innerHTML = `O dobro de <mark>${numero}</mark> é <mark>${dobro}</mark> e a metade é <mark>${metade}</mark>!`
 }
