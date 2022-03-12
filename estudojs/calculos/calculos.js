@@ -4,7 +4,7 @@ function calcular() {
 
     res.innerHTML = `<p>O número a ser analisado sera o <strong>${numero}</strong></p><hr>` 
     res.innerHTML += `<p>O seu valor absoluto é o ${Math.abs(numero)}</p>`
-    res.innerHTML += `Sua parte inteira é o ${Math.trunc(numero)}` 
+    res.innerHTML += `<p>Sua parte inteira é o ${Math.trunc(numero)}</p>` 
     res.innerHTML += `<p>O valor inteiro mais próximo é o ${Math.round(numero)}`
     res.innerHTML += `Sua raiz quadrada é ${Math.sqrt(numero)}`
     res.innerHTML += `<p>Sua raiz cúbica é ${Math.cbrt(numero)}</p>`
