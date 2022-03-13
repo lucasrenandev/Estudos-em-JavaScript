@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhação</title>
+    <style>
+        body {
+            font: 15pt Arial;
+        }
+        button {
+            padding: 25px;
+            font-size: 13pt;
+        }
+        div#result {
+            padding-top: 20px;
+            font-size: 13pt;
+        }
+    </style>
+</head>
+<body onload="sortear()">
+    <h1>Jogo da Adivinhação. Tente adivinhar o número!</h1>
+
+    <div>
+        <button onclick="adivinhar()" id="botao">Adivinhar</button>
+    </div>
+
+    <div id="result">
+        Estou pensando em um valor entre 1 e 100!
+    </div>
+    
+    <script src="adivinhacao.js"></script>
+</body>
+</html>
