@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+body {
+    font: 12pt Arial;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+button {
+    padding: 25px;
+    font-size: 13pt;
+}
+div#saida {
+    font-size: 13pt;
+}
