@@ -2,7 +2,7 @@ function VerificarEstação() {
     mês = window.prompt('Digite o mês por extenso (ex: Setembro)').toUpperCase()
     let res = document.querySelector('div#res')
     
-    res.innerHTML = '<h2 style=color:green;>Verificando...'
+    res.innerHTML = '<h2 style=font-size:18pt;>Verificando...'
     let estação
     switch(mês) {
         case 'JANEIRO': case 'FEVEREIRO': case 'MARÇO':
