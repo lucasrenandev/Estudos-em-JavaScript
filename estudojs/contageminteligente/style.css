@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    font: 12pt Arial;
+}
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+input.dado {
+    padding: 1.5px;
+    width: 178px;
+    font-size: 12pt;
+}
+input#botao {
+    padding: 5px;
+    font-size: 12pt;
+    background: green;
+    color: white;
+}
