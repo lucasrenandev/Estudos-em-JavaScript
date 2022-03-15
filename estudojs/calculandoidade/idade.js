@@ -5,5 +5,5 @@ function calculoIdade() {
     let idade = ano - nasc
     let res = document.querySelector('div#res')
 
-    res.innerHTML = `Quem nasceu em ${nasc} vai completar <mark>${idade}</mark> em ${ano} `
+    res.innerHTML = `Quem nasceu em ${nasc} vai completar <mark>${idade}</mark> anos em ${ano} `
 }
