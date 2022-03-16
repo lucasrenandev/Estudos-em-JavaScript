@@ -11,5 +11,5 @@ function verificarMaior() {
     } else if (n2 < menor) {
         menor = n2
     }
-    res.innerHTML=`O maior valor digitado foi ${maior}.`
+    res.innerHTML=`<p>O maior valor digitado foi ${maior}.<p>`
 }
