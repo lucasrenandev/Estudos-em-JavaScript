@@ -1,20 +1,11 @@
 
 body {
     background-color: lightblue;
-    font: normal 18pt arial
+    font: 18pt Arial;
 }
 
 h1 {
     text-align: center;
-}
-
-input {
-    width: 150px;
-}
-
-div#res {
-    padding: 20px;
-    
 }
 section {
     background-color: white;
@@ -23,11 +14,8 @@ section {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.308);
-    text-align: center;
 }
 
-footer {
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
+input#botao {
+    font-size: 12pt;
 }
