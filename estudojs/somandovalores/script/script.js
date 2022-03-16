@@ -6,7 +6,7 @@ function somar() {
     var n2 = Number(tn2.value)
     var soma = n1 + n2
 
-    res.innerHTML=`A soma entre ${n1} + ${n2} é igual a ${soma}.`
+    res.innerHTML=`<p>A soma entre ${n1} + ${n2} é igual a ${soma}.<p>`
    
 
 }
