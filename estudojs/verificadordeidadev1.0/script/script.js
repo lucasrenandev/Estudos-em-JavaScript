@@ -15,5 +15,5 @@ function Verificar() {
         menor = id2
     }
     
-    saida.innerHTML += `<p>A maior idade é ${maior} e a menor é ${menor}!</p>`
+    saida.innerHTML = `<p>A maior idade é ${maior} e a menor é ${menor}!</p>`
 }
