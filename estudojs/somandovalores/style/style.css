@@ -8,21 +8,21 @@ h1 {
     text-align: center;
 }
 
-input {
-    width: 150px;
-}
-
-div#res {
-    padding: 20px;
-    
-}
 section {
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    text-align: center;
+}
+
+input#botao {
+    
+    font-size: 12pt;
+}
+
+div#res {
+    padding: 10px;
 }
 
 footer {
