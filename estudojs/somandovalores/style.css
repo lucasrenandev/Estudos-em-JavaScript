@@ -1,0 +1,32 @@
+
+body {
+    background-color: lightblue;
+    font: normal 18pt arial
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input#botao {
+    
+    font-size: 12pt;
+}
+
+div#res {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
