@@ -2,34 +2,22 @@
 
 body {
     background-color: lightblue;
-    font: normal 18pt arial
+    font: 18pt Arial
     
 }
 
 h1 {
     text-align: center;
 }
-
-input {
-    width: 150px;
-}
-
 section {
     background-color: white;
     width: 500px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.301);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.301);
     margin: auto;
-    text-align: center;
 }
 
-div#res {
-    padding-top: 5px;
-}
-
-footer {
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
+input#botao {
+    font-size: 12pt;
 }

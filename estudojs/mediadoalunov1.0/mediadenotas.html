@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Médias das notas</title>
+    <title>Média de notas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Média de notas!</h1>
     <section>
         <div>
-            <input type="number" name="txtn1" id="txtn1">
-            <input type="number" name="txtn2" id="txtn2">
-            <input type="button" value="Calcular média" onclick="calcularMedia()">
+            <p>1ª Nota: <input type="number" name="txtn1" id="txtn1"></p>
+            <p>2ª Nota: <input type="number" name="txtn2" id="txtn2"></p>
+            <p><input type="button" value="Calcular" onclick="calcularMedia()" id="botao"></p>
         </div>
         <div id="res">
             <p>Resultado</p>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; lucasrenandns</p>
-    </footer>
 
     <script src="script.js"></script>
     
