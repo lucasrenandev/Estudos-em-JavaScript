@@ -1,10 +1,11 @@
 body {
-    font: normal 15pt arial;
-    background-color: lightblue;
+    font: 15pt arial;
+    background-color: rgb(45, 131, 202);
 
 }
 
 h1 {
+    color: white;
     text-align: center;
 }
 section {
@@ -28,4 +29,10 @@ img {
 
 div#res {
     padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
