@@ -1,26 +1,21 @@
 
 body {
-    font: normal 18pt arial;
+    font: 18pt Arial;
     background-color: lightblue;
     
 }
 h1 {
     text-align: center;
 }
-input {
-    width: 150px;
-}
-
 section {
     background-color: white;
     width: 500px;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
-    text-align: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.267);
 }
 
-div#res {
-    padding: 20px;
+input#botao {
+    font-size: 12pt;
 }
