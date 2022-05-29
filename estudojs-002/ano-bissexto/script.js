@@ -1,7 +1,7 @@
 
 let calcular = document.querySelector('#calcular')
 let data = new Date
-let ano_atual = agora.getFullYear()
+let ano_atual = data.getFullYear()
 
 calcular.addEventListener('click', calculo_ano_bissexto)
 
