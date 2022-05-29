@@ -11,13 +11,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9797ad;
+    background-color: #a4afb9;
 }
 
 main {
-    background-color:  #bbbbbb;
-    width: 400px;
-    height: 520px;
+    background-color: #6890b8;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,11 +54,12 @@ main h1 {
 
 #resultado {
     width: 350px;
-    height: 150px;
-    background-color: #bcd1f8;
+    height: 130px;
+    
+    background-color: #a4afb9;
     border: none;
     border-radius: 10px;
-   padding: 20px;
+    padding: 20px;
 }
 
 .label-input label {
