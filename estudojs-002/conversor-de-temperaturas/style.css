@@ -12,13 +12,16 @@ body {
     align-items: center;
 }
 
+/* temp content */
+
 .temp-content {
     background-color: rgb(104, 144, 184);
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     padding: 10px;
     border-radius: 10px;
@@ -49,10 +52,12 @@ body {
 }
 
 .saida {
-    width: 300px;
+    width: 350px;
     height: 150px;
     background-color: rgb(105, 167, 221);
     border-radius: 10px;
     padding: 20px;
     font-size: 1.1rem;
+    text-align: center;
+
 }
