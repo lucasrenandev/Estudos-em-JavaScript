@@ -26,7 +26,7 @@ function calculo_ano_bissexto() {
             resultado = `Analisando o ano <strong>${ano}</strong>, ele <strong> não é BISSEXTO</strong>!`
         }
 
-        saida.innerHTML = resultado + agora
+        saida.innerHTML = resultado
     }
    
 }
