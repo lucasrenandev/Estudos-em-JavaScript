@@ -22,7 +22,7 @@ function calculo_litros() {
     
         const tinta = área / 2
     
-        resultado.innerHTML += `<br> <br> Para pintar essa parede, você precisará de <strong>${tinta}L</strong> de tinta!`
+        resultado.innerHTML += `<br> <br> Para pintar esta parede, você precisará de <strong>${tinta}L</strong> de tinta!`
     }
 
 }
