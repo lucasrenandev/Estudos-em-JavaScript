@@ -1,5 +1,5 @@
 
-var calcular = document.querySelector('.calcular')
+let calcular = document.querySelector('.calcular')
 
 calcular.addEventListener('click', calculo_celsius)
 
