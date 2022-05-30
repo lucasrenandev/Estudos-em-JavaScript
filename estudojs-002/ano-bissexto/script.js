@@ -18,7 +18,7 @@ function calculo_ano_bissexto() {
 
     else {
 
-        if (ano % 4 == 0 && ano % 100 !== 0 || ano % 400 == 0) {
+        if (ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0) {
             resultado = `Analisando o ano <strong>${ano}</strong>, ele <strong>é BISSEXTO</strong>!`
         }
 
