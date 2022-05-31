@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4afb9;
+}
+
+.content {
+    background-color: #6890b8;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.label-input label {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding-right: 5px;
+}
+
+.label-input input {
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+}
+
+.content button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.saida {
+    width: 370px;
+    height: 150px;
+    background-color: #b5d4f0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1rem;
+}
