@@ -14,7 +14,7 @@ body {
     background-color: #a4afb9;
 }
 
-.temp-content {
+.content {
     background-color: #6890b8;
     width: 600px;
     height: 600px;
@@ -39,7 +39,7 @@ body {
     padding: 12px;
 }
 
-.temp-content button {
+.content button {
     width: 100px;
     height: 35px;
     border: none;
