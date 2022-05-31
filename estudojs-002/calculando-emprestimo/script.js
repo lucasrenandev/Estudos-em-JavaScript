@@ -5,6 +5,7 @@ let empréstimo
 calcular.addEventListener('click', calculo_empréstimo)
 
 function calculo_empréstimo() {
+
     const valor_casa = document.querySelector('#valor-casa').value
     const salário_comprador = document.querySelector('#salario-comprador').value
     const anos_financiamento = document.querySelector('#anos-financiamento').value
@@ -13,7 +14,7 @@ function calculo_empréstimo() {
     const prestação = Number(valor_casa / (anos_financiamento * 12))
     const salário_mínimo = Number(salário_comprador * 30 / 100)
 
-    saida.innerHTML = `Preço da casa <strong>R$ ${valor_casa}</strong> com empréstimo de ${anos_financiamento} anos!`
+    saida.innerHTML = `Preço da casa <strong>R$ ${valor_casa}</strong> <br> <br> Empréstimo de <strong>${anos_financiamento}</strong> anos!`
     saida.innerHTML += `<br> <br> O empréstimo será de <strong>R$ ${prestação.toFixed(2)}</strong>`
 
     if (prestação <= salário_mínimo) {
