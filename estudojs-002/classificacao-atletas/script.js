@@ -8,18 +8,18 @@ calcular.addEventListener('click', classificação_atletas)
 
 function classificação_atletas() {
     
-    const ano_nascimeto = document.querySelector('#ano').value
+    const ano_nascimento = document.querySelector('#ano').value
     const saida = document.querySelector('.saida')
 
-    if (ano_nascimeto == '' || ano_nascimeto > ano_atual || ano_nascimeto < 0) {
+    if (ano_nascimento == '' || ano_nascimento > ano_atual || ano_nascimento < 0) {
         window.alert('[ERRO] campo VAZIO ou ANO inválido. Tente novamente!')
     }
 
     else {
         
-        idade = Number(ano_atual - ano_nascimeto)
+        idade = Number(ano_atual - ano_nascimento)
         
-        saida.innerHTML = 'O atleta nasceu em ' + ano_nascimeto + ' e tem ' + idade + ' anos de idade!' 
+        saida.innerHTML = 'O atleta nasceu em ' + ano_nascimento + ' e tem ' + idade + ' anos de idade!' 
         
         if (idade <= 9) {
             classificação = 'MIRIM'
