@@ -9,7 +9,7 @@ function conversor_fahrenheit() {
 
     const fahrenheit = Number(window.prompt("Informe à temperatura em °F:"))
 
-    if (fahrenheit == '') {
+    if (fahrenheit == '' || fahrenheit !== Number(fahrenheit)) {
 
         resultado.innerHTML = "Impossível converter. Temperatura não informada!"
     }
@@ -18,6 +18,6 @@ function conversor_fahrenheit() {
 
         const celsius = 5 * (fahrenheit - 32) / 9
 
-        resultado.innerHTML = `Temperatura em °F:  <mark>${fahrenheit}</mark> <br> <br> Convertida em °C:  <mark>${celsius.toFixed(2)}</mark>`
+        resultado.innerHTML = `Temperatura em °F:  <mark>${fahrenheit}</mark> <br> <br> Temperatura em °C:  <mark>${celsius.toFixed(2)}</mark>`
     }
 }
