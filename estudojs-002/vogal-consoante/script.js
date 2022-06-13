@@ -15,19 +15,14 @@ function vogal_ou_consoante() {
 
     else {
 
-        if (letra == "A" || letra == "E" || letra == "I") {
+        if (letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U") {
 
-            resultado.innerHTML = "Temos uma vogal!"
-        }
-
-        else if (letra == "O" || letra == "U")  {
-
-            resultado.innerHTML = "Temos uma vogal!"
+            resultado.innerHTML = "A letra digitada é uma <mark>vogal!</mark>"
         }
 
         else {
 
-            resultado.innerHTML = "A letra digitada não é uma vogal!"
+            resultado.innerHTML = "A letra digitada é uma <mark>consoante!</mark>"
         }
     }
 
