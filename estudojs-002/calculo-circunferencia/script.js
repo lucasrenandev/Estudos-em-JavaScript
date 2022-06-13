@@ -15,13 +15,12 @@ function calculoCircunferência() {
 
     else {
 
-        let valor_raio 
-        valor_raio = raio
-    
-        let comprimento = Number(2 * Math.PI * raio).toFixed(2)
-        let area = Number(Math.PI * raio * raio).toFixed(2)
+        const valor_raio = raio
 
-        resultado.innerHTML = `Área: <mark>${area}</mark> <br> comprimento: <mark>${comprimento}</mark>`
+        const comprimento = Number(2 * Math.PI * valor_raio).toFixed(2)
+        const area = Number(Math.PI * raio * valor_raio).toFixed(2)
+
+        resultado.innerHTML = `Área: <mark>${area}</mark> <br> Circunferência: <mark>${comprimento}</mark>`
     
     }
     
