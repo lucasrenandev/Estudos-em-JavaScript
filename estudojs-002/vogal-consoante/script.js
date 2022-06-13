@@ -6,23 +6,25 @@ button.addEventListener('click', vogal_ou_consoante)
 function vogal_ou_consoante() {
 
     const resultado = document.querySelector("#resultado")
-    const letra = String(window.prompt("Digite uma letra:")).toUpperCase()
+    const letra = window.prompt("Digite uma letra:")
 
-    if (letra == '' || letra == Number(letra)) {
+    const letra_digitada = letra.toUpperCase()
+
+    if (letra == '' || letra == Number(letra) || letra == null) {
 
         resultado.innerHTML = "impossível verificar. Letra não informada!"
     }
 
     else {
 
-        if (letra == "A" || letra == "E" || letra == "I" || letra == "O" || letra == "U") {
+        if (letra_digitada == "A" || letra_digitada == "E" || letra_digitada == "I" || letra_digitada == "O" || letra_digitada == "U") {
 
-            resultado.innerHTML = "A letra digitada é uma <mark>vogal!</mark>"
+            resultado.innerHTML = "A letra digitada é uma <mark>VOGAL!</mark>"
         }
 
         else {
 
-            resultado.innerHTML = "A letra digitada é uma <mark>consoante!</mark>"
+            resultado.innerHTML = "A letra digitada é uma <mark>CONSOANTE!</mark>"
         }
     }
 
