@@ -9,8 +9,9 @@ function vogal_ou_consoante() {
     const letra = window.prompt("Digite uma letra:")
 
     const letra_digitada = letra.toUpperCase()
+    
 
-    if (letra == '' || letra == Number(letra) || letra == null) {
+    if (letra_digitada == '' || letra_digitada == Number(letra)) {
 
         resultado.innerHTML = "impossível verificar. Letra não informada!"
     }
