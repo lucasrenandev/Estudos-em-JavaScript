@@ -18,8 +18,8 @@ function calculoCircunferência() {
         let valor_raio 
         valor_raio = raio
     
-        comprimento = Number(2 * Math.PI * raio).toFixed(2)
-        area = Number(Math.PI * raio * raio).toFixed(2)
+        let comprimento = Number(2 * Math.PI * raio).toFixed(2)
+        let area = Number(Math.PI * raio * raio).toFixed(2)
 
         resultado.innerHTML = `Área: <mark>${area}</mark> <br> comprimento: <mark>${comprimento}</mark>`
     
