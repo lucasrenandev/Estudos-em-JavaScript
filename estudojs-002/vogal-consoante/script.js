@@ -18,7 +18,7 @@ function vogal_ou_consoante() {
 
     else {
 
-        if (letra_digitada.toUpperCase() === "A" || letra_digitada.toUpperCase() == "E" || letra_digitada.toUpperCase() == "I" || letra_digitada.toUpperCase() == "O" || letra_digitada.toUpperCase() == "U") {
+        if (letra_digitada.toUpperCase() == "A" || letra_digitada.toUpperCase() == "E" || letra_digitada.toUpperCase() == "I" || letra_digitada.toUpperCase() == "O" || letra_digitada.toUpperCase() == "U") {
 
             resultado.innerHTML = "A letra digitada é uma <mark>VOGAL!</mark>"
         }
