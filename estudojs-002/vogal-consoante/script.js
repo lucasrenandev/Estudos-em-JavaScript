@@ -6,7 +6,7 @@ button.addEventListener('click', vogal_ou_consoante)
 function vogal_ou_consoante() {
 
     const resultado = document.querySelector("#resultado")
-    const letra = window.prompt("Digite uma letra:")
+    const letra = window.prompt("Digite uma LETRA:")
 
     const letra_digitada = letra
     
