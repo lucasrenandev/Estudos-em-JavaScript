@@ -8,17 +8,17 @@ function vogal_ou_consoante() {
     const resultado = document.querySelector("#resultado")
     const letra = window.prompt("Digite uma letra:")
 
-    const letra_digitada = letra.toUpperCase()
+    const letra_digitada = letra
     
 
-    if (letra_digitada == '' || letra_digitada == Number(letra)) {
+    if (letra_digitada == '' || letra_digitada == Number(letra) || letra_digitada == null) {
 
         resultado.innerHTML = "impossível verificar. Letra não informada!"
     }
 
     else {
 
-        if (letra_digitada == "A" || letra_digitada == "E" || letra_digitada == "I" || letra_digitada == "O" || letra_digitada == "U") {
+        if (letra_digitada === "a" || letra_digitada == "e" || letra_digitada == "i" || letra_digitada == "o" || letra_digitada == "u") {
 
             resultado.innerHTML = "A letra digitada é uma <mark>VOGAL!</mark>"
         }
