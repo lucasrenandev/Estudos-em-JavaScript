@@ -32,6 +32,11 @@ function verificarMaior() {
         maior = n3
     }
 
+        if (n1 == parseInt(n2) && n2 == parseInt(n3) && n3 == parseInt(n1) && n3 == parseInt(n2)) {
+
+            resultado.innerHTML = "todos os números são iguais"
+        }
+
     else {
 
         resultado.innerHTML = `O maior valor informado foi o <mark>${maior}</mark>`
