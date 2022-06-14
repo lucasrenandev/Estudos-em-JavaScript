@@ -30,6 +30,6 @@ function verificarMaior() {
         resultado.innerHTML = "Todos os números são iguais!"
     }
 
-    resultado.innerHTML = `O maior valor informado foi o ${maior}`
+    resultado.innerHTML = `O maior valor informado foi o <mark>${maior}</mark>`
 
 }
