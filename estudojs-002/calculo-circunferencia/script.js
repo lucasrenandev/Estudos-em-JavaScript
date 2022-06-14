@@ -18,7 +18,7 @@ function calculoCircunferência() {
         const valor_raio = raio
 
         const comprimento = Number(2 * Math.PI * valor_raio).toFixed(2)
-        const area = Number(Math.PI * raio * valor_raio).toFixed(2)
+        const area = Number(Math.PI * valor_raio * valor_raio).toFixed(2)
 
         resultado.innerHTML = `Área: <mark>${area}</mark> <br> Circunferência: <mark>${comprimento}</mark>`
     
