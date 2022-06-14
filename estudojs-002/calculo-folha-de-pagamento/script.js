@@ -1,10 +1,10 @@
 
 const button = document.getElementById("calcular")
 
-button.addEventListener('click', Salario_max900)
-button.addEventListener('click', Salario_max1500)
-button.addEventListener('click', Salario_max2500)
-button.addEventListener('click', Salario_maiorque2500)
+button.addEventListener('click', Salariomax900)
+button.addEventListener('click', Salariomax1500)
+button.addEventListener('click', Salariomax2500)
+button.addEventListener('click', Salario_acimade2500)
 button.addEventListener('click', validacao)
 
 function validacao() {
@@ -21,7 +21,7 @@ function validacao() {
 
 }
 
-function Salario_max900() {
+function Salariomax900() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -36,7 +36,7 @@ function Salario_max900() {
     
 }
 
-function Salario_max1500() {
+function Salariomax1500() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -67,7 +67,7 @@ function Salario_max1500() {
 
 }
 
-function Salario_max2500() {
+function Salariomax2500() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -97,7 +97,7 @@ function Salario_max2500() {
     }
 }
 
-function Salario_maiorque2500() {
+function Salario_acimade2500() {
     
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
