@@ -13,7 +13,7 @@ function vogal_ou_consoante() {
 
     if (letra_digitada == '' || letra_digitada == Number(letra) || letra_digitada == null) {
 
-        resultado.innerHTML = "impossível verificar. Letra não informada!"
+        resultado.innerHTML = "Impossível verificar. Letra não informada!"
     }
 
     else {
