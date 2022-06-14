@@ -126,4 +126,3 @@ function Salario_acimade2500() {
         saida.innerHTML += `<br>Salário Liquido: <mark>R$ ${salario_liquido.toFixed(2)}</mark>`
     }
 }
-
