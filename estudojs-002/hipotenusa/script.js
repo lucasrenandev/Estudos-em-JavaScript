@@ -1,9 +1,9 @@
 
 let calcular = document.querySelector('.calcular')
 
-calcular.addEventListener('click', calculo_cateto)
+calcular.addEventListener('click', calculo_hipotenusa)
 
-function calculo_cateto() {
+function calculo_hipotenusa() {
     const cateto_oposto = document.querySelector('.cateto-oposto').value
     const cateto_adjacente = document.querySelector('.cateto-adjacente').value
     const hipotenusa = Math.hypot(cateto_oposto, cateto_adjacente)
