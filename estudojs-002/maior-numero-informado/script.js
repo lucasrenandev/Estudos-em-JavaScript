@@ -34,7 +34,7 @@ function verificarMaior() {
 
         if (n1 == parseInt(n2) && n2 == parseInt(n3) && n3 == parseInt(n1) && n3 == parseInt(n2)) {
 
-            resultado.innerHTML = "todos os números são iguais"
+            resultado.innerHTML = "Todos os números são iguais"
         }
 
     else {
