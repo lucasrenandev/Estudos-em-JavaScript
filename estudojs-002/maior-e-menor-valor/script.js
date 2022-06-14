@@ -35,7 +35,6 @@ function maior_e_menor() {
         if (n2 < menor ) {
             menor = n2
         }
-
         if (n3 < menor) {
             menor = n3
         }
