@@ -20,7 +20,7 @@ function verificarMaior() {
 
         var maior
 
-         maior = n1
+        maior = n1
    
         if (n2 > n1 ) {
 
@@ -34,11 +34,9 @@ function verificarMaior() {
 
     else {
 
-        resultado.innerHTML = "Todos os números são iguais!"
+        resultado.innerHTML = `O maior valor informado foi o <mark>${maior}</mark>`
     }
-
-    resultado.innerHTML = `O maior valor informado foi o <mark>${maior}</mark>`
-
+       
     }
 
 }
