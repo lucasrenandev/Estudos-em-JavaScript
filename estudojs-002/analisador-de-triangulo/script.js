@@ -6,9 +6,9 @@ button.addEventListener('click', analisadorTriangulo)
 function analisadorTriangulo() {
 
     const resultado = document.getElementById('resultado')
-    const ladoA = Number(window.prompt('Informe à medida do lado A:'))
-    const ladoB = Number(window.prompt('Informe à medida do lado B:'))
-    const ladoC = Number(window.prompt('Informe à medida do lado C:'))
+    const ladoA = Number(window.prompt('Informe a medida do lado A:'))
+    const ladoB = Number(window.prompt('Informe a medida do lado B:'))
+    const ladoC = Number(window.prompt('Informe a medida do lado C:'))
 
     if (ladoA == '' || ladoA !== Number(ladoA) || ladoA <= 0 
     || ladoB == '' || ladoB !== Number(ladoB) || ladoB <= 0 
