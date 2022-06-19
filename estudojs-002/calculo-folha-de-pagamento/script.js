@@ -1,10 +1,10 @@
 
 const button = document.getElementById("calcular")
 
-button.addEventListener('click', Salariomax900)
-button.addEventListener('click', Salariomax1500)
-button.addEventListener('click', Salariomax2500)
-button.addEventListener('click', Salario_acimade2500)
+button.addEventListener('click', salariomax900)
+button.addEventListener('click', salariomax1500)
+button.addEventListener('click', salariomax2500)
+button.addEventListener('click', salario_acimade2500)
 button.addEventListener('click', validacao)
 
 function validacao() {
@@ -15,13 +15,14 @@ function validacao() {
 
     if (hora == '' || hora <= 0 || horas_trabalhadas == '' || horas_trabalhadas <= 0) {
 
+        window.alert('Não foi possível calcular. Valores inválidos ou campo vazio!')
         saida.innerHTML = "[ERRO] Valores inválidos ou campo vazio! "
 
     }
 
 }
 
-function Salariomax900() {
+function salariomax900() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -36,7 +37,7 @@ function Salariomax900() {
     
 }
 
-function Salariomax1500() {
+function salariomax1500() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -67,7 +68,7 @@ function Salariomax1500() {
 
 }
 
-function Salariomax2500() {
+function salariomax2500() {
 
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
@@ -97,7 +98,7 @@ function Salariomax2500() {
     }
 }
 
-function Salario_acimade2500() {
+function salario_acimade2500() {
     
     const saida = document.getElementById('saida')
     const hora =  Number(document.getElementById('hora').value)
