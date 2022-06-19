@@ -45,7 +45,7 @@ function dia_da_semana() {
                 break
 
             case 7:
-                resultado.innerHTML = "<mark>SABADO</mark>"
+                resultado.innerHTML = "<mark>SÁBADO</mark>"
                 break
 
             default:
