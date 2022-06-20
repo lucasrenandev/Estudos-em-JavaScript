@@ -27,7 +27,7 @@ function verificadorNumeros() {
                 analise = 'O número é <mark>Par</mark>'
             }
             else {
-                analise = 'O número é <mark>impar</mark>'
+                analise = 'O número é <mark>Ímpar</mark>'
             }
         }
         else if (operacao == 2) {
