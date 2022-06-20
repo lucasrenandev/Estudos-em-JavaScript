@@ -2,16 +2,16 @@
 let analise
 const button = document.getElementById('button')
 
-button.addEventListener('click', verificadorNumeros)
+button.addEventListener('click', analisandoOperacoes)
 
-function verificadorNumeros() {
+function analisandoOperacoes() {
 
     const resultado = document.getElementById('resultado')
     const n1 = Number(window.prompt('Digite um número: '))
     const n2 = Number(window.prompt('Digite outro: '))
     const operacao = Number(window.prompt('Qual operação/verificação deseja realizar? \n[1] Par ou Ímpar \n[2] Positivo ou Negativo \n[3] Inteiro ou Decimal'))
 
-    if (n1 !== Number(n1) || n2 !== Number(n2)) {
+    if ( n1 !== Number(n1) || n2 !== Number(n2)) {
 
         resultado.innerHTML = "[ERRO] Informe somente números!"
     }
@@ -49,10 +49,9 @@ function verificadorNumeros() {
             }
         }
         else {
-            analise = 'Impossível realizar operação. Valores não informados!'
+            analise = 'Impossível realizar operação. Tente novamente!'
         }
     
-        resultado.innerHTML = analise
     }
-   
+    resultado.innerHTML = analise
 }   
