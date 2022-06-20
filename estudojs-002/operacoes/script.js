@@ -1,14 +1,15 @@
 
+let analise
 const button = document.getElementById('button')
-let resultado = document.getElementById('resultado')
 
 button.addEventListener('click', verificadorNumeros)
 
 function verificadorNumeros() {
-
+    
+    const resultado = document.getElementById('resultado')
     const n1 = Number(window.prompt('Digite um número: '))
     const n2 = Number(window.prompt('Digite outro: '))
-    const operacao = Number(window.prompt('Qual operação deseja realizar? \n[1] Par ou Ímpar \n[2] Positivo ou Negativo \n[3] Inteiro ou Decimal'))
+    const operacao = Number(window.prompt('Qual operação/verificação deseja realizar? \n[1] Par ou Ímpar \n[2] Positivo ou Negativo \n[3] Inteiro ou Decimal'))
 
     let soma 
     soma = n1 + n2
@@ -16,32 +17,33 @@ function verificadorNumeros() {
     if (operacao == 1) {
 
         if (soma % 2 == 0) {
-            resultado.innerHTML = 'Par'
+            analise = 'Par'
         }
         else {
-            resultado.innerHTML = 'impar'
+            analise = 'impar'
         }
     }
     else if (operacao == 2) {
 
         if (soma < 0) {
-            resultado.innerHTML = 'Negativo'
+            analise = 'Negativo'
         }
         else {
-            resultado.innerHTML = 'Positivo'
+            analise = 'Positivo'
         }
     }
     else if (operacao == 3) {
 
         if (soma % 1 == 0) {
-            resultado.innerHTML = 'Inteiro'
+            analise = 'Inteiro'
         }
         else {
-            resultado.innerHTML = 'Decimal'
+            analise = 'Decimal'
         }
     }
     else {
-        resultado.innerHTML = 'Impossível realizar operação. Valores não informados!'
+        analise = 'Impossível realizar operação. Valores não informados!'
     }
 
+    resultado.innerHTML = analise
 }   
