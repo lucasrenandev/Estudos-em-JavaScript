@@ -11,7 +11,7 @@ function analisandoOperacoes() {
     const n2 = Number(window.prompt('Digite outro: '))
     const operacao = Number(window.prompt('Qual operação/verificação deseja realizar? \n[1] Par ou Ímpar \n[2] Positivo ou Negativo \n[3] Inteiro ou Decimal'))
 
-    if ( n1 !== Number(n1) || n2 !== Number(n2)) {
+    if (n1 !== Number(n1) || n2 !== Number(n2)) {
 
         resultado.innerHTML = "[ERRO] Informe somente números!"
     }
