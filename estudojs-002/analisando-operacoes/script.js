@@ -32,7 +32,7 @@ function analisandoOperacoes() {
         }
         else if (operacao == 2) {
     
-            if (soma > 0) {
+            if (Math.sign(soma) == 1) {
                 analise = 'O valor é <mark>Positivo</mark>'
             }
             else {
@@ -41,7 +41,7 @@ function analisandoOperacoes() {
         }
         else if (operacao == 3) {
     
-            if (soma % 1 == 0) {
+            if (soma == parseInt(soma)) {
                 analise = 'O valor é <mark>Inteiro</mark>'
             }
             else {
