@@ -1,13 +1,12 @@
 
 let analiseMedia
-let saida = document.querySelector("#saida")
 const calcular = document.querySelector("#calcular")
 
-calcular.addEventListener('click', validacao)
-calcular.addEventListener('click', calculoNotas)
+calcular.addEventListener('click', calculoMedia)
 
-function calculoNotas(n1, n2) {
+function calculoMedia(n1, n2) {
 
+    const saida = document.querySelector("#saida")
     n1 = Number(document.querySelector("#n1").value)
     n2 = Number(document.querySelector("#n2").value)
     
@@ -33,14 +32,4 @@ function calculoNotas(n1, n2) {
     }
 
     saida.innerHTML = analiseMedia
-}
-
-function validacao(n1, n2) {
-
-    n1 = Number(document.querySelector("#n1").value) 
-    n2 = Number(document.querySelector("#n2").value)
-
-    if (n1 == '' || n2 == '') {
-        window.alert("Informe as notas para continuar!")
-    }
 }
