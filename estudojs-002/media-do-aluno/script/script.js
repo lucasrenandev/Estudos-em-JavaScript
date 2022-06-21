@@ -30,6 +30,6 @@ function calculoMedia(n1, n2) {
     else {
         analiseMedia = `Impossível Calcular!`
     }
-
+    
     saida.innerHTML = analiseMedia
 }
