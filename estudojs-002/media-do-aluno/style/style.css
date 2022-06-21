@@ -21,7 +21,7 @@ header {
 }
 
 form {
-    max-width: 600px;
+    max-width: 450px;
     height: auto;
     margin: 50px auto;
     padding: 15px 10px;
@@ -73,7 +73,7 @@ form {
 }
 
 .saida {
-    max-width: 600px;
+    max-width: 450px;
     margin: 0 auto;
     text-align: center;
 }
