@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddd;   
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    max-width: 600px;
+    height: auto;
+    margin: 50px auto;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: #3099df;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.034);
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-content label {
+    font-size: 1.2em;
+}
+
+.form-content input {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.form-content input::placeholder {
+    text-transform: uppercase;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-button button:hover {
+    cursor: pointer;
+}
+
+.saida {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
